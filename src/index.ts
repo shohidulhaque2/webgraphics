@@ -2,7 +2,7 @@
 import StartApplication from "./App/App";
 import {Engine} from "./Core/Engine";
 
-var GameEngineInstance: Engine  = null;
+let GameEngineInstance: Engine = null;
 
 window.onload = () => {
     let viewPort  = document.getElementById("viewport");
