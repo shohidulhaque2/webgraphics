@@ -14,7 +14,6 @@ export class WebGLUtilities {
         }
 
         WebGLUtilities.WebGLRenderingContext = canvas.getContext("webgl");
-
         if (WebGLRenderingContext === undefined) {
             throw new Error("Unable to initialize WebGL.");
         }
